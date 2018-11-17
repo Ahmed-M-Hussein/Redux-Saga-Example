@@ -1,32 +1,78 @@
-.App {
-  text-align: center;
+.input_container{
+
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  margin-bottom: 1rem;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+.error_Icon{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  align-content: center;
   align-items: center;
+  margin: 2px;
+}
+
+
+.Tow_input_inLine{
+
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.app_header{
+
+  display: flex;
+  height:50px;
+  background-color: cornflowerblue;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+  align-items: center;
+
+}
+.app_header_text{
+
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form_container{
+
+  padding: 1px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  background-color: whitesmoke;
+}
+.inner_form_container{
+  margin: 6rem;
+  /* margin-right: 6rem; */
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form_button{
+
+  text-align: center;
+}
+
+.text_view{
+  display: grid;
+  grid-template-columns: 10% 90%;
+
+  font-size: 2erm;
+}
+
+.text_view_label{
+
+  color: cornflowerblue;
+}
+
+.divide_view{
+
+  color: white;
 }
